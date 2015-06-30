@@ -7,7 +7,7 @@ The color scheme files have been generated with [a fork](https://github.com/tomp
 
 ## Installation
 
-The easiest way to install is via [Package Control](https://packagecontrol.io/), the color schemes are available as `rails_base_16`.
+The easiest way to install is via [Package Control](https://packagecontrol.io/), the color schemes are available as `RailsBase16 Color Schemes`.
 
 Alternatively, you can clone the repo inside the `Packages` directory of your Sublime Text data directory.
 
