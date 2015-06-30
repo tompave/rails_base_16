@@ -12,3 +12,62 @@ The easiest way to install is via [Package Control](https://packagecontrol.io/),
 
 Alternatively, you can clone the repo inside the `Packages` directory of your Sublime Text data directory.
 
+
+## Improved syntax highlighting
+
+* Symbols
+    * Symbols and Strings use different colors.
+    * the colon uses the default punctuation color, like variable qualifiers (`@`, `$`).
+
+![symbols](https://github.com/tompave/RailsBase16-builder/raw/master/images/symbols.jpg)
+
+* ERB
+    * `<%=  %>` tags use a color more detectable in HTML files.
+    * embedded ruby code has a specific background color (as seen in Railscasts and Sublime's default Cobalt color scheme).
+
+![ERB](https://github.com/tompave/RailsBase16-builder/raw/master/images/ERB.jpg)
+
+* Haml
+    * separate colors for `%tag`, `.class` and `#id` declarations
+
+![haml](https://github.com/tompave/RailsBase16-builder/raw/master/images/haml.jpg)
+
+* String Interpolation
+    * embedded ruby code uses appropriate source colors, not the String color.
+    * embedded ruby code has a specific background color.
+
+![strings](https://github.com/tompave/RailsBase16-builder/raw/master/images/strings.jpg)
+
+* Operators
+    * operators (`=`, `+`, `&&`, `and`, etc) use a specific color.
+
+![operators](https://github.com/tompave/RailsBase16-builder/raw/master/images/operators.jpg)
+
+* SCSS
+    * separate colors for CSS selectors (`.`, `#`), Sass directives (`@`), and units (`px`, `em`).
+    * the color used for `$variables` doesn't clash with the color used for tag selectors (`div`, `span`, etc).
+    * colors for recognized CSS values.
+
+![scss](https://github.com/tompave/RailsBase16-builder/raw/master/images/scss.jpg)
+
+* punctuation
+    * improved handling of punctuation
+
+![punctuation](https://github.com/tompave/RailsBase16-builder/raw/master/images/punctuation.jpg)
+
+
+* module declarations
+    * Module declarations now use the same color of class declarations, instead of the String color.
+
+![module_class](https://github.com/tompave/RailsBase16-builder/raw/master/images/module_class.jpg)
+
+* block variables
+    * Block variables don't have the same relevance of `@instance` variables, and they should use a different color.
+
+![block_vars](https://github.com/tompave/RailsBase16-builder/raw/master/images/block_vars.jpg)
+
+
+### Other
+
+* comments use the italic style.
+* quotation marks use the String color.
