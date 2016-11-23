@@ -46,7 +46,7 @@
 			<key>name</key>
 			<string>Text</string>
 			<key>scope</key>
-			<string>variable.parameter.function</string>
+			<string>variable.parameter.function, meta.function.parameters variable.parameter</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -70,7 +70,7 @@
 			<key>name</key>
 			<string>Punctuation</string>
 			<key>scope</key>
-			<string>punctuation.definition.variable, punctuation.definition.parameters, punctuation.definition.array, punctuation.definition.constant.ruby, punctuation.definition.keyword, punctuation.definition.entity, punctuationctuation.definition.entity.css, punctuation.section.function, punctuation.separator</string>
+			<string>punctuation.definition.variable, punctuation.definition.parameters, punctuation.definition.array, punctuation.definition.constant, punctuation.definition.keyword, punctuation.definition.entity, punctuationctuation.definition.entity.css, punctuation.section.function, punctuation.separator</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -136,7 +136,7 @@
 			<key>name</key>
 			<string>Classes</string>
 			<key>scope</key>
-			<string>support.class, entity.name.class, entity.name.type.class, entity.name.type.module</string>
+			<string>support.class, entity.name.class, entity.name.type.class, entity.name.module, entity.name.type.module</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -153,6 +153,18 @@
 			<dict>
 				<key>foreground</key>
 				<string>#d28b71</string>
+			</dict>
+		</dict>
+
+		<dict>
+			<key>name</key>
+			<string>Class and Module Namespace separators</string>
+			<key>scope</key>
+			<string>meta.module entity.name.module punctuation.accessor.ruby, meta.class entity.name.class punctuation.accessor.ruby, meta.class entity.other.inherited-class punctuation.accessor.ruby</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#645240</string>
 			</dict>
 		</dict>
 
@@ -198,6 +210,17 @@
 			<dict>
 				<key>foreground</key>
 				<string>#7bbda4</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Builtin Function</string>
+			<key>scope</key>
+			<string>support.function.builtin</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#645240</string>
 			</dict>
 		</dict>
 		<dict>
@@ -517,7 +540,7 @@
 			<key>name</key>
 			<string>Colors</string>
 			<key>scope</key>
-			<string>constant.other.color</string>
+			<string>constant.other.color, punctuation.definition.constant.scss</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -643,7 +666,7 @@
 			<key>name</key>
 			<string>Block Variables</string>
 			<key>scope</key>
-			<string>variable.other.block</string>
+			<string>variable.other.block, meta.block.parameters variable.parameter.ruby</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -651,8 +674,20 @@
 			</dict>
 		</dict>
 
+		<dict>
+			<key>name</key>
+			<string>Constant Variables</string>
+			<key>scope</key>
+			<string>meta.constant entity.name.constant.ruby, variable.other.constant.ruby</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#cb6077</string>
+			</dict>
+		</dict>
+
 	</array>
 	<key>uuid</key>
-	<string>6f7aa6d9-f209-4cc1-9473-49429ef95cb4</string>
+	<string>896b825b-f5f7-442b-862c-b9e69c2fd2f0</string>
 </dict>
 </plist>
