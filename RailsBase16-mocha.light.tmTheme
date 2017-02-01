@@ -686,8 +686,20 @@
 			</dict>
 		</dict>
 
+		<dict>
+			<key>name</key>
+			<string>Elixir Protocol Names</string>
+			<key>scope</key>
+			<string>entity.name.protocol.elixir</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#d28b71</string>
+			</dict>
+		</dict>
+
 	</array>
 	<key>uuid</key>
-	<string>896b825b-f5f7-442b-862c-b9e69c2fd2f0</string>
+	<string>df368d54-1e3e-4444-ad64-05da02cde5a5</string>
 </dict>
 </plist>

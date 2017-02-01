@@ -685,9 +685,21 @@
 				<string>#db2d20</string>
 			</dict>
 		</dict>
-		
+
+		<dict>
+			<key>name</key>
+			<string>Elixir Protocol Names</string>
+			<key>scope</key>
+			<string>entity.name.protocol.elixir</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#fded02</string>
+			</dict>
+		</dict>
+
 	</array>
 	<key>uuid</key>
-	<string>2c319471-5bac-4565-b104-d17abd5cfca7</string>
+	<string>d0b8a93b-215d-4a75-852c-b7863dee6936</string>
 </dict>
 </plist>
