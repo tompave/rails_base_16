@@ -623,6 +623,23 @@
 			</dict>
 		</dict>
 
+		<dict>
+			<key>name</key>
+			<string>EEx tags</string>
+			<key>scope</key>
+			<string>
+				text meta.embedded punctuation.section.embedded.begin,
+				text meta.embedded punctuation.section.embedded.end,
+				text meta.embedded punctuation.section.embedded.end.elixir source.elixir
+			</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#f9ee98</string>
+				<key>background</key>
+				<string>#323537</string>
+			</dict>
+		</dict>
 
 		<dict>
 			<key>name</key>
@@ -633,6 +650,20 @@
 			<dict>
 				<key>foreground</key>
 				<string>#ffffff</string>
+			</dict>
+		</dict>
+
+		<dict>
+			<key>name</key>
+			<string>String Interpolation Chars (Elixir)</string>
+			<key>scope</key>
+			<string>source.elixir string punctuation.section.embedded.begin, source.elixir string punctuation.section.embedded.end</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ffffff</string>
+				<key>background</key>
+				<string>#323537</string>
 			</dict>
 		</dict>
 
@@ -690,7 +721,7 @@
 			<key>name</key>
 			<string>Elixir Protocol Names</string>
 			<key>scope</key>
-			<string>entity.name.protocol.elixir</string>
+			<string>entity.name.type.protocol.elixir</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -700,6 +731,6 @@
 
 	</array>
 	<key>uuid</key>
-	<string>3874539b-214c-4a45-a32d-a0a1efc04072</string>
+	<string>f2080c4b-5706-489c-b1a1-79e5be24999f</string>
 </dict>
 </plist>
