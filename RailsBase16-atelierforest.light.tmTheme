@@ -599,7 +599,7 @@
 			<key>name</key>
 			<string>Embedded Source</string>
 			<key>scope</key>
-			<string>string source, text source</string>
+			<string>string source, text source, source meta.interpolation source</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -641,16 +641,17 @@
 			</dict>
 		</dict>
 
-
 		<dict>
 			<key>name</key>
-			<string>String Interpolation Chars</string>
+			<string>String Interpolation Chars (Ruby)</string>
 			<key>scope</key>
-			<string>source string source punctuation.section.embedded</string>
+			<string>source.ruby meta.interpolation punctuation.section.interpolation.begin, source.ruby meta.interpolation punctuation.section.interpolation.end</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
 				<string>#407ee7</string>
+				<key>background</key>
+				<string>#e6e2e0</string>
 			</dict>
 		</dict>
 
@@ -732,6 +733,6 @@
 
 	</array>
 	<key>uuid</key>
-	<string>ba0bdf83-a656-461c-bfc4-a7871172428f</string>
+	<string>33ad2604-67a8-4519-8918-a4e7d0f20a80</string>
 </dict>
 </plist>
