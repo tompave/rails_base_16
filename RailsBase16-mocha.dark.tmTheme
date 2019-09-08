@@ -132,6 +132,19 @@
 				<string>#8ab3b5</string>
 			</dict>
 		</dict>
+
+		<dict>
+			<key>name</key>
+			<string>Functions Invocations (Elixir)</string>
+			<key>scope</key>
+			<string>source.elixir entity.name.function.elixir</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#d0c8c6</string>
+			</dict>
+		</dict>
+
 		<dict>
 			<key>name</key>
 			<string>Classes</string>
@@ -733,6 +746,6 @@
 
 	</array>
 	<key>uuid</key>
-	<string>dfe28182-5d54-4c7f-b1b7-d06a425720f6</string>
+	<string>3806fde2-f0a9-4fc0-8136-f3605b0b486e</string>
 </dict>
 </plist>
